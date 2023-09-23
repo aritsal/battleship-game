@@ -8,3 +8,17 @@ battleship needs to:
 - [ ] check for any winners / loosers
 - [ ] declare winner
 - [ ] reset game
+
+# DATA NEEDED FOR THE GAME
+
+### BOATS
+each boat needs to have
+- Its orientation *(horizontal or vertical)*
+- Start pos
+- Length or the boat
+- Hit state *(is the boat hit or not?)*
+
+### PLAYERS
+Each player needs to have 
+- A list of their boats
+- A list of marked coordinates
